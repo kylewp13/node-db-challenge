@@ -53,8 +53,6 @@ router.post("/", async (req, res) => {
 // Tasks
 router.get("/:id/tasks", async (req, res) => {
   const { id } = req.params;
-  const tasksTest = await Tasks.findTasks(id)
-  console.log(id)
 
   try {
     const tasks = await Tasks.findTasks(id);

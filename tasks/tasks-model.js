@@ -8,8 +8,9 @@ module.exports = {
 function findTasks(id) {
   return db('tasks')
     .select('projects.project_name', 'projects.project_description', 'tasks.*')
-    .join('projects', 'tasks.task_id', 'projects.project_id')
-    //.where({ project_id: id })
+    .leftJoin('projects', 'tasks.task_id', 'projects.project_id')
+    .where('tasks.project_id', '=', id)
+
 }
 
 function add(task, id) {
