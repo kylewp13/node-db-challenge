@@ -38,13 +38,22 @@ Commit your code regularly and use descriptive messages. This helps both you (in
 
 Demonstrate your understanding of this week's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] Explain the difference between `Relational Databases` and `SQL`.
+- [x] Explain the difference between `Relational Databases` and `SQL`.
 
-- [ ] Why do tables need a `primary key`?
+    - Relational Databases \ This is the type of database
+    - SQL \ This is the language
 
-- [ ] What is the name given to a table column that references the primary key on another table.
+- [x] Why do tables need a `primary key`?
 
-- [ ] What do we need in order to have a _many to many_ relationship between two tables.
+    - To create a unique id to identify that item in the table
+
+- [x] What is the name given to a table column that references the primary key on another table.
+
+    - Foreign key
+
+- [x] What do we need in order to have a _many to many_ relationship between two tables.
+
+    - multiple records in a table are associated with multiple records in another table
 
 ## Minimum Viable Product
 
@@ -68,7 +77,7 @@ Complete the following tasks:
   - [x] adding projects.
   - [x] retrieving a list of projects.
   - [x] adding tasks.
-  - [ ] retrieving a list of tasks. **The list of tasks should include the project name and project description**.
+  - [x] retrieving a list of tasks. **The list of tasks should include the project name and project description**.
 
 ### Entities
 
